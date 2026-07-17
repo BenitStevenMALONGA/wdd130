@@ -23,6 +23,7 @@ img {
 
 main {
     width: 840px;
+    max-width: fit-content;
 }
 
 aside {
