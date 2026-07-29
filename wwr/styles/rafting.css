@@ -84,3 +84,7 @@ article {
     border-radius: 8px;
     object-fit: cover;
 }
+
+.hero article {
+    position: relative;
+}
