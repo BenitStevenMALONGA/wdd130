@@ -84,3 +84,22 @@ article {
     border-radius: 8px;
     object-fit: cover;
 }
+
+header, nav{
+    display: grid;
+    grid-template-columns: 150px 1fr ;
+    align-items: center;
+}
+
+nav, ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 10px 10px;
+    background-color: white;
+}
