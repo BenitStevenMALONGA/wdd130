@@ -118,3 +118,92 @@ main {
     gap: 2px;
     object-fit: cover;
 }
+
+.info {
+    text-align: center;
+}
+
+.info, h2 {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 0;
+}
+
+.carte {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.child {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   border: 2px rgb(43, 43, 43);
+}
+
+.child img {
+    width: 100px;
+    height: auto;
+    align-items: center;
+}
+
+.child p {
+    text-align: center;
+}
+
+.form-card {
+    background-color: white;
+    gap: 10px;
+    width: 400px;
+    height: auto;
+    display: grid;
+}
+
+input {
+    width: 300px;
+    height: 35px;
+}
+
+footer, .pied {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.black {
+    padding: 20px;
+}
+
+.boite {
+    border: 2px  solid rgb(61, 61, 61);
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+button {
+    padding: 8px;
+}
+
+.radio {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: right;
+}
+
+.cheb {
+    display: flex;
+    flex-direction: row;
+}
+
+.etude {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    position: relative;
+}
